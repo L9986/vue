@@ -68,4 +68,7 @@
 		- 将本地库上传Gitee:
 			- git remote add gitee https://gitee.com/huawei-technology_27/git-demo.git
 			- git push -u gitee main
+
+### github 教程相关代码地址
+	- git remote add gitee https://gitee.com/ymhold/vue-course.git
 	
