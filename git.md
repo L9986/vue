@@ -72,4 +72,13 @@
 ### github/gitee教程相关代码地址
 	- git remote add gitee https://gitee.com/ymhold/vue-course.git
 	- git push -u gitee main 
-	
+
+### 远程库的操作命令
+	- git remote 	
+		- 列出当前关联的远程库
+	- git remote add <远程库名> <url>
+		- 关联远程仓库 
+    - git remote remove <远程库名>
+		- 删除远程库
+	- git push -u <远程库名> <分支名>
+		- 向远程库推送代码，并和当前分支关联
