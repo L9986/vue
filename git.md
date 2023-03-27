@@ -1,11 +1,11 @@
-查看git版本：
+### 查看git版本：
 		-git -v
-配置：
+### 配置：
 	name  
 		-git config --global user.name "l2312"
 	email
 		-git config --global user.email "l2312367816@163.com"
-使用git:
+### 使用git:
 	git status
 		-查看当前仓库的状态
 	git init
@@ -21,7 +21,7 @@
 			- 修改代码后，文件会变为修改状态
 		git log 
 			-查看所有历史记录
-常用的命令：
+### 常用的命令：
 	git restore <filename>
 		- 重置文件
 	git restore --staged <filename>
@@ -32,7 +32,7 @@
 		- 强制删除
 	git mv from to
 		- 移动文件或者重命名文件
-分支：
+### 分支：
 	git 在存储文件时，每一此代码的提交都会创建一个与之对应的节点，git 就是通过一个一个节点来记录代码的状态的。节点会构成一个树状结构，树状结构就意味着这个树辉存在分支，默认情况下仓库只有一个		分支，命名为master。在使用git 时，可以创建多个分支，分支与分支之间相互独立，在一个分支上修改代码不会影响其他分支。
 	git branch 
 		- 查看当前分支
